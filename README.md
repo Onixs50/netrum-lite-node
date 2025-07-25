@@ -77,7 +77,6 @@ netrum-sync-log
 ```
 ## 9. Enable as systemd service
 ```bash
-sudo cp /root/netrum-lite-node/netrum-node.service /etc/systemd/system/
 sudo systemctl daemon-reload
 sudo systemctl enable netrum-node.service
 sudo systemctl start netrum-node.service
