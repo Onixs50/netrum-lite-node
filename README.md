@@ -4,6 +4,8 @@
 Storage: 100 GB SSD
 Network: 10 Mbps Internet Connection
 
+# Join waitlist:
+[HERE](https://netrumlabs.com/Waitlist?ref=0x05A7Eb929209F5C1F2f08dd087b64bB1beBa99fE)
 ## 🔐 Node Requirements
 You need 0.0004 Base ETH for node registration fee
 Wallet address must have a registered Base domain name:
