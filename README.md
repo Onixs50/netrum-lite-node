@@ -82,3 +82,5 @@ chek wallet
 ```bash
 netrum-wallet
 ```
+join here https://discord.gg/TvztxbBq
+and register your node id <img width="855" height="376" alt="image" src="https://github.com/user-attachments/assets/9689ceaf-1e18-447e-9a5b-fdc986799d92" />
