@@ -1,81 +1,80 @@
-# netrum-lite-node
-**Hardware Requirements:
+## 📦 Hardware Requirements
  RAM: 4-6 GB
  CPU: 2vCPU
- Storage: 100GB SSD
- Network: 10Mbps Internet Connection
-and 
-Node Requirements:
- You need 0.0004 Base ETH for Node registration Fee
- Wallet address has a registered Base domain name (Mint [here](https://www.base.org/names) if you don't have one)*
+Storage: 100 GB SSD
+Network: 10 Mbps Internet Connection
 
-```bash
-git clone https://github.com/NetrumLabs/netrum-lite-node.git
+## 🔐 Node Requirements
+You need 0.0004 Base ETH for node registration fee
+Wallet address must have a registered Base domain name:
+ Base domain name (Mint [here](https://www.base.org/names) if you don't have one)*
+
+## 1. Clone the repo
+```bashgit clone https://github.com/NetrumLabs/netrum-lite-node.git
 cd netrum-lite-node
 ```
+## 2. Install dependencies
 ```bash
-sudo apt update && sudo apt install -y curl bc jq speedtest-cli nodejs npm
+sudo apt update && sudo apt install -y curl bc jq speedtest-cli
 ```
+## 3. Install Node.js (v20)
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-sudo apt install -y nodejs
+sudo apt install -y nodejs npm
 node -v
 ```
+## 4. Install Netrum CLI
 ```bash
 npm install
 sudo npm link
 netrum
 ```
+## Sample CLI Output (for reference):
 <pre>
-Netrum CLI  Version v1.0.0
-Light-weight node & wallet toolkit for the Netrum network.
-
-Available Commands:
-netrum-system          System status & logs
-netrum-new-wallet      Create / new a wallet
-netrum-import-wallet   Create / import a wallet
-netrum-wallet          Create / inspect a wallet
-netrum-wallet-key      Export private key
-netrum-wallet-remove   Delete wallet files
-netrum-check-basename  Check basename conflicts
-netrum-node-id         Show current Node ID
-netrum-node-id-remove  Clear Node ID
-netrum-node-sign       Sign a message with node key
-netrum-node-register   Register node on-chain
-netrum-sync            Sync blockchain data
-netrum-sync-log        Node sync logs
-netrum-mining          Start mining
-netrum-mining-log      Node mining logs
-netrum-claim           Claim rewards
+# Netrum CLI  Version v1.0.0
+# Light-weight node & wallet toolkit for the Netrum network.
+# Commands:
+# netrum-system          System status & logs
+# netrum-new-wallet      Create / new a wallet
+# netrum-import-wallet   Create / import a wallet
+# netrum-wallet          Create / inspect a wallet
+# netrum-wallet-key      Export private key
+# netrum-wallet-remove   Delete wallet files
+# netrum-check-basename  Check basename conflicts
+# netrum-node-id         Show current Node ID
+# netrum-node-id-remove  Clear Node ID
+# netrum-node-sign       Sign a message with node key
+# netrum-node-register   Register node on-chain
+# netrum-sync            Sync blockchain data
+# netrum-sync-log        Node sync logs
+# netrum-mining          Start mining
+# netrum-mining-log      Node mining logs
+# netrum-claim           Claim rewards
 </pre>
-
-
+## 5. Wallet setup
 ```bash
 netrum-new-wallet
 ```
-#or
+## OR if you already have a wallet:
 ```bash
 netrum-import-wallet
 ```
-check the domain
+## 6. Check Base domain
 ```bash
 netrum-check-basename
 ```
+## 7. Node registration
 ```bash
 netrum-node-id
-```
-```bash
 netrum-node-sign
-```
-```bash
 netrum-node-register
 ```
+## 8. Start syncing
 ```bash
 netrum-sync
-```
-```bash
 netrum-sync-log
 ```
+## 9. Enable as systemd service
 ```bash
 sudo cp /root/netrum-lite-node/netrum-node.service /etc/systemd/system/
 sudo systemctl daemon-reload
@@ -83,20 +82,20 @@ sudo systemctl enable netrum-node.service
 sudo systemctl start netrum-node.service
 sudo systemctl status netrum-node.service
 ```
-
+## 10. Start mining
 ```bash
 netrum-mining
-```
-```bash
 netrum-mining-log
 ```
-after 24 H
+## 11. After 24 hours, claim rewards
 ```bash
 netrum-claim
 ```
-chek wallet
+## 12. Check wallet
 ```bash
 netrum-wallet
 ```
-join here https://discord.gg/TvztxbBq
-and register your node id <img width="855" height="376" alt="image" src="https://github.com/user-attachments/assets/9689ceaf-1e18-447e-9a5b-fdc986799d92" />
+## 13. Join Discord and register your Node ID:
+## https://discord.gg/TvztxbBq
+## Use the /register command with your Node ID inside the server
+<img width="855" height="376" alt="image" src="https://github.com/user-attachments/assets/9689ceaf-1e18-447e-9a5b-fdc986799d92" />
