@@ -26,15 +26,29 @@ npm install
 sudo npm link
 netrum
 ```
-```sql Netrum CLI  Version v1.0.0
+<pre>
+Netrum CLI  Version v1.0.0
 Light-weight node & wallet toolkit for the Netrum network.
 
 Available Commands:
 netrum-system          System status & logs
 netrum-new-wallet      Create / new a wallet
 netrum-import-wallet   Create / import a wallet
-...
-```
+netrum-wallet          Create / inspect a wallet
+netrum-wallet-key      Export private key
+netrum-wallet-remove   Delete wallet files
+netrum-check-basename  Check basename conflicts
+netrum-node-id         Show current Node ID
+netrum-node-id-remove  Clear Node ID
+netrum-node-sign       Sign a message with node key
+netrum-node-register   Register node on-chain
+netrum-sync            Sync blockchain data
+netrum-sync-log        Node sync logs
+netrum-mining          Start mining
+netrum-mining-log      Node mining logs
+netrum-claim           Claim rewards
+</pre>
+
 
 ```bash
 netrum-new-wallet
