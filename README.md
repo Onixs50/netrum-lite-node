@@ -34,6 +34,7 @@ netrum-system          System status & logs
 netrum-new-wallet      Create / new a wallet
 netrum-import-wallet   Create / import a wallet
 ...
+```
 
 ```bash
 netrum-new-wallet
@@ -68,6 +69,7 @@ sudo systemctl enable netrum-node.service
 sudo systemctl start netrum-node.service
 sudo systemctl status netrum-node.service
 ```
+
 ```bash
 netrum-mining
 ```
