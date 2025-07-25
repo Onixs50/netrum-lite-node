@@ -69,6 +69,7 @@ netrum-node-id
 netrum-node-sign
 netrum-node-register
 ```
+If you see errors check it with : `netrum-system`
 ## 8. Start syncing
 ```bash
 netrum-sync
