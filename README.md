@@ -9,7 +9,9 @@ Network: 10 Mbps Internet Connection
 ## 🔐 Node Requirements
 You need 0.0004 Base ETH for node registration fee
 Wallet address must have a registered Base domain name:
- Base domain name (Mint [here](https://www.base.org/names) if you don't have one)*
+ Base domain name
+ 
+ (Mint [here](https://www.base.org/names) if you don't have one)*
 
 ## 1. Clone the repo
 ```bashgit clone https://github.com/NetrumLabs/netrum-lite-node.git
