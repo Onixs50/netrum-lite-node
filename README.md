@@ -102,4 +102,7 @@ netrum-wallet
 ## 13. Join Discord and register your Node ID:
 ## https://discord.gg/TvztxbBq
 ## Use the /register command with your Node ID inside the server
+
+`netrum-node-id | grep "Generated Node ID" | sed 's/^.*Generated Node ID: //'`
+
 <img width="855" height="376" alt="image" src="https://github.com/user-attachments/assets/9689ceaf-1e18-447e-9a5b-fdc986799d92" />
