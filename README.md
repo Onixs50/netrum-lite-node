@@ -14,7 +14,8 @@ Wallet address must have a registered Base domain name:
  (Mint [here](https://www.base.org/names) if you don't have one)*
 
 ## 1. Clone the repo
-```bashgit clone https://github.com/NetrumLabs/netrum-lite-node.git
+```bash
+git clone https://github.com/NetrumLabs/netrum-lite-node.git
 cd netrum-lite-node
 ```
 ## 2. Install dependencies
