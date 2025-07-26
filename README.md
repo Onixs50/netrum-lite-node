@@ -112,3 +112,31 @@ netrum-wallet
 `netrum-node-id | grep "Generated Node ID" | sed 's/^.*Generated Node ID: //'`
 
 <img width="855" height="376" alt="image" src="https://github.com/user-attachments/assets/9689ceaf-1e18-447e-9a5b-fdc986799d92" />
+
+## 🚨 [UPDATE] NETRUM – July 2025
+
+All Node Users – Please update your nodes to the latest version.
+
+````bash
+## 🚨 [UPDATE] NETRUM – July 2025
+
+All Node Users – Please update your nodes to the latest version.
+
+### 📥 Get the latest update
+git pull
+
+### 🔄 Start syncing again
+netrum-sync
+
+### 📄 Check the sync logs
+netrum-sync-log
+
+### ⛏️ Start mining
+netrum-mining
+
+### 📄 Check mining logs
+netrum-mining-log
+
+🟢 Make sure your node is fully synced before starting mining.
+
+❗ If you face any issue (e.g., error CALL_EXCEPTION), it might mean the mining session has ended or the API has changed. Check logs for details.
