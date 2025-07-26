@@ -74,7 +74,8 @@ netrum-node-id
 netrum-node-sign
 netrum-node-register
 ```
-#If you see errors check it with : `netrum-system`
+#If you see errors check it with : `netrum-system` and if u have problem whit register try whit this comand : `jq -r '.txHash' /root/netrum-lite-node/src/node-lite/register-data.txt > /root/netrum-lite-node/src/node-lite/register-tx-hash.txt
+`
 ## 8. Start syncing
 ```bash
 netrum-sync
