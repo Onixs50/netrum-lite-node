@@ -123,6 +123,8 @@ All Node Users – Please update your nodes to the latest version.
 All Node Users – Please update your nodes to the latest version.
 
 ### 📥 Get the latest update
+cd netrum-lite-node
+
 git pull
 
 ### 🔄 Start syncing again
